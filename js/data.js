@@ -1,4 +1,4 @@
-[
+const data=[
     {
         "id":1,
         "nom":" Baklawa – Le Joyau de la Gourmandise",
@@ -72,5 +72,7 @@
          "categorie":"occidental"
     }
     
-    ]
+    ];
+
+    export default data;
     
