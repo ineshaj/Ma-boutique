@@ -1,6 +1,6 @@
 import data from './data.js';
 
-
+console.log(data);
 const productContainer = document.getElementById("products");//c'est le row
 //const cartContainer = document.getElementById("cart");//le panier
 const totalContainer = document.getElementById("total");// prix total
