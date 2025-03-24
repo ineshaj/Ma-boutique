@@ -13,7 +13,7 @@ let listProductHTML = document.querySelector('.listeprduits');//liste des produi
 let iconCartSpan = document.querySelector('.icon-cart span');//icone du nombre d'article en panier
 let body = document.querySelector('body');
 
-fetch("/produits.json")
+fetch("https://ineshaj.github.io/produits.json")
 .then(response => response.json())// convertit la reponse en json
 .then( products => {
         products.forEach(product =>
