@@ -1,4 +1,4 @@
-import data from '.js/data.js';
+import data from './js/data.js';
 
 console.log(data);
 const productContainer = document.getElementById("products");//c'est le row
